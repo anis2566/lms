@@ -59,7 +59,7 @@ export const ChapterQuestion = ({ questions }: ChapterQuestionProps) => {
                                 <h4 className="font-semibold text-sm">You</h4>
                                 <time className="text-xs text-gray-500 dark:text-gray-400">Now</time>
                             </div>
-                            <p className="text-sm text-gray-500 dark:text-gray-400">Thanks for your feedback! We're glad you like it.</p>
+                            <p className="text-sm text-gray-500 dark:text-gray-400">Thanks for your feedback! We are glad you like it.</p>
                             </div>
                         </div>
                     </div>
