@@ -42,7 +42,7 @@ export const ChapterQuestion = ({ questions }: ChapterQuestionProps) => {
                         </div>
                         <div className="flex gap-4 ml-10">
                             <div className="flex-shrink-0">
-                            <img
+                            {/* <img
                                 alt="User avatar"
                                 className="rounded-full"
                                 height="32"
@@ -52,7 +52,7 @@ export const ChapterQuestion = ({ questions }: ChapterQuestionProps) => {
                                 objectFit: "cover",
                                 }}
                                 width="32"
-                            />
+                            /> */}
                             </div>
                             <div className="grid gap-1.5">
                             <div className="flex items-center gap-2 text-xs">
