@@ -53,6 +53,9 @@ export async function POST(req: Request) {
   const { id } = evt.data;
   const eventType = evt.type;
 
+  console.log(eventType);
+  console.log(evt.data);
+
   if (eventType === "user.created") {
     await createUser({
       name: `${evt.data.first_name} ${evt.data.last_name}`,
